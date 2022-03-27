@@ -25,6 +25,7 @@ h1, h2 {
     float: left;
     font-size: 50px;
     color: black;
+    text-align: justify;
 }
 
 /* Navigation links*/
@@ -56,4 +57,38 @@ h1, h2 {
 
 .active {
     border-bottom: 3px solid #0a0a0a;
+}
+
+/* chef picture homepage*/
+
+#chefs {
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/chefs.webp")no-repeat center center;
+
+    /* animated zoom loading page*/
+    animation-name: kitchen-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+ }   
+
+ #kitchen {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+ }
+
+ /* animated zoom loading page*/
+     Animation
+
+ /* create zoom in effect on homepage picture*/
+ @keyframes kitchen-zoom {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
 }
