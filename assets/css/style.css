@@ -9,7 +9,7 @@
 body {
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
-    color: rgb(14, 14, 13);
+    color: rgb(10, 10, 10);
 }
 
 /* Headings and logo*/
@@ -22,7 +22,21 @@ h1, h2 {
 }
 
 #logo {
-    justify-content: flex-start;
+    float: left;
     font-size: 50px;
     color: black;
+}
+
+/* Navigation links*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: black;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px
 }
