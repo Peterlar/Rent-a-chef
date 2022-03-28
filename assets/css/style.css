@@ -65,63 +65,50 @@ h1, h2 {
 /* chef picture homepage*/
 
 #chefs {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background: url("../css/images/chefs.webp")no-repeat center center;
-    position: relative; 
-    top: -125px;
-    left: 2px;
+    background: url('../css/images/chefs.webp') no-repeat center center;
 
-    /* animated zoom loading page*/
-    animation-name: kitchen-zoom;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
-
- }   
-
- #kitchen {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
- }
-
- /* animated zoom loading page*/
-     Animation
-
- /* create zoom in effect on homepage picture*/
- @keyframes kitchen-zoom {
-        from{
-            transform: scale(1);
-        }
-        to{
-            transform: scale(1.1);
-        }
 }
 
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.01);
+    }
+}
 /* creating the information section*/
 
-#info {
+
+#homepage-info {
     height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #ffff00;
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
     float: right;
-    background-color: blue;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: red;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
