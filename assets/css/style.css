@@ -34,6 +34,7 @@ h1, h2 {
 /* Navigation links*/
 
 #menu {
+    height: 50px;
     font-size: 110%;
     letter-spacing: 4px;
     color: black;
@@ -78,18 +79,25 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
+        transform: scale(0.7);
     }
     to{
-        transform: scale(1.01);
+        transform: scale(1.1);
     }
 }
 /* creating the information section*/
 
 
 #homepage-info {
-    height: 600px;
+    height: 630px;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: justify;
+    position: relative; 
+    left: 10px;
+    background-color: #7c7a7a;
+    margin: 0 auto;
 }
 
 #left-about {
@@ -112,3 +120,27 @@ hr {
     margin-bottom: 50px;
 }
 
+.headline-info {
+    float: left;
+    position: relative; 
+    left: 50px;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
