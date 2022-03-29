@@ -96,71 +96,6 @@ p {
 
 /* creating the information section*/
 
-
-#rentchef {
-    height: 630px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    text-align: justify;
-    position: relative;
-    left: 10px;
-    background-color: #7c7a7a;
-    margin: 0 auto;
-}
-
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-
-.headline-info {
-    float: left;
-    position: relative;
-    left: 50px;
-}
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-#menu-board {
-    height: 600px;
-
-}
-
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -187,6 +122,46 @@ footer {
     margin-bottom: 50px;
 }
 
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#menu-board {
+    height: 600px;
+
+}
 
 /* For medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -196,24 +171,6 @@ footer {
         margin: 0 auto;
     }
 
-    #rent-chef {
-        height: 600px;
-    }
+    
 
-    .menu-center-heading {
-        font-size: 160%;
-        width: 60%;
-        float: left;
-        left: 50px;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
     
-    .menu-center-heading h1 {
-        text-align: right;
-    }
-    
-    .menu-center-heading p {
-        text-align: right;
-    }
