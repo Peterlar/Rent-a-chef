@@ -13,13 +13,19 @@ body {
 }
 
 /* Headings and logo*/
-h1,h2 {
+h1,h2, {
     font-family: 'Dancing Script', cursive;
     color: black;
     text-transform: none;
     letter-spacing: 4px;
 
 }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+    
 
 #logo {
     float: left;
@@ -103,6 +109,10 @@ h1,h2 {
     margin: 0 auto;
 }
 
+.li {
+
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -168,11 +178,6 @@ footer {
         margin: 0 auto;
     }
 
-.menuboard {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    background-image: url("../css/images/chefs.webp");
-}
+    .menuboard {
+        
+    }
