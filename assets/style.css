@@ -138,9 +138,28 @@ p {
     text-align: right;
 }
 
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
+}
 
-footer {
-    height: 150px;
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('..') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .social-networks {
@@ -174,3 +193,5 @@ footer {
     
 
     
+/* form at order page*/
+
