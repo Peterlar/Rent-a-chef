@@ -13,7 +13,7 @@ body {
 }
 
 /* Headings and logo*/
-h1, h2 {
+h1,h2 {
     font-family: 'Dancing Script', cursive;
     color: black;
     text-transform: none;
@@ -26,16 +26,16 @@ h1, h2 {
     font-size: 50px;
     color: black;
     text-align: justify;
-    position: relative; 
+    position: relative;
     left: 10px;
-    
+
 }
 
 /* Navigation links*/
 
 #menu {
     height: 75px;
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 4px;
     color: black;
 }
@@ -69,6 +69,7 @@ h1, h2 {
     height: 650px;
     width: 100%;
     background: url('../css/images/chefs.webp') no-repeat center center;
+    margin-top: 1%;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -78,13 +79,15 @@ h1, h2 {
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(0.7);
     }
-    to{
-        transform: scale(1.4);
+
+    to {
+        transform: scale(1.2);
     }
 }
+
 /* creating the information section*/
 
 
@@ -94,7 +97,7 @@ h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     text-align: justify;
-    position: relative; 
+    position: relative;
     left: 10px;
     background-color: #7c7a7a;
     margin: 0 auto;
@@ -105,6 +108,7 @@ h1, h2 {
     width: 33%;
     float: left;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -122,7 +126,7 @@ hr {
 
 .headline-info {
     float: left;
-    position: relative; 
+    position: relative;
     left: 50px;
 }
 
@@ -134,7 +138,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -151,8 +155,24 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     text-align: justify;
-    position: relative; 
+    position: relative;
     background-color: #7c7a7a;
     margin: 0 auto;
 }
 
+/* For medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+.menuboard {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    background-image: url("../css/images/chefs.webp");
+}
