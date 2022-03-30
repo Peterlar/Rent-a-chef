@@ -40,8 +40,8 @@ p {
 /* Navigation links*/
 
 #menu {
-    height: 75px;
-    font-size: 150%;
+    height: 50px;
+    font-size: 120%;
     letter-spacing: 4px;
     color: black;
 }
@@ -72,10 +72,10 @@ p {
 /* chef picture homepage*/
 
 #chefs {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background: url('../css/images/chefs.webp') no-repeat center center;
-    margin-top: 1%;
+    background: url('../css/images/chefs.we') no-repeat center center;
+    margin-top: 10%;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -90,7 +90,7 @@ p {
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }
 
@@ -177,10 +177,6 @@ p {
     color: #3a3a3a;
 }
 
-#menu-board {
-    height: 600px;
-
-}
 
 /* For medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -193,5 +189,10 @@ p {
     
 
     
-/* form at order page*/
+/* Meny list at meny page*/
+
+#menu-page {
+    height: 600px;
+
+}
 
