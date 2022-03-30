@@ -72,10 +72,9 @@ p {
 /* chef picture homepage*/
 
 #chefs {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: url('../css/images/chefs.webp') no-repeat center center;
-    margin-top: 1%;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -101,28 +100,37 @@ p {
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 50px;
+    width: 40%;
     float: left;
+    justify-content: center;
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 50px;
+    width: 40%;
+    float: right;
+    justify-content: center;
+}
+    
+    
 .right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .right-about-heading h2 {
     text-align: right;
+    justify-content: center;
 }
 
 .right-about-heading p {
     text-align: right;
+    justify-content: center;
 }
 
 #welcome {
@@ -195,11 +203,6 @@ p {
     float: right;
 }
 
-
-#center-menu {
-    width: 33%;
-    margin: 0 auto;
-}
 
 /* Style  */
 input[type=text], select, textarea {
