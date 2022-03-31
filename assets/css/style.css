@@ -73,11 +73,12 @@ p {
 
 #chefs {
     height: 400px;
-    width: 90%;
-    background: url('../css/images/chefs.webp') no-repeat center center;
+    width: 100%;
+    background: url('../css/images/chefs.JPG') no-repeat center center;
     position: relative;
     display: inline-block;
     margin: auto;
+    background-color: #216c6c;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -180,6 +181,7 @@ hr {
 
 .social-networks {
     text-align: center;
+    background-color: #216c6c;
 }
 
 .social-networks>li {
@@ -187,10 +189,11 @@ hr {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+    
 }
 
 
@@ -250,6 +253,7 @@ textarea {
     max-width: 400px;
     left: 100%;
     padding: 30px;
+    margin: 0 auto;
 }
 
 .order-form>h2 {
