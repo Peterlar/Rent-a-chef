@@ -13,37 +13,37 @@ body {
 }
 
 /* Headings and logo*/
-h1,h2, {
+h1,
+h2,
+    {
     font-family: 'Dancing Script', cursive;
     color: black;
     text-transform: none;
     letter-spacing: 4px;
 }
-    
-
-
 
 p {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-    
+
 
 #logo {
     float: left;
     font-size: 40px;
     margin-left: 30px;
     color: black;
-    
+
 }
 
 /* Navigation links*/
 
 #menu {
-    height: 75px;
-    font-size: 150%;
+    height: 50px;
+    font-size: 120%;
     letter-spacing: 4px;
     color: black;
+    margin-bottom: 40px;
 }
 
 #menu #logo {
@@ -72,14 +72,16 @@ p {
 /* chef picture homepage*/
 
 #chefs {
-    height: 600px;
-    width: 100%;
+    height: 400px;
+    width: 90%;
     background: url('../css/images/chefs.webp') no-repeat center center;
-    margin-top: 1%;
+    position: relative;
+    display: inline-block;
+    margin: auto;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -90,30 +92,28 @@ p {
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }
 
 /* creating the information section*/
 
-
 #rentchef {
-    height: 630px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    text-align: justify;
-    position: relative;
-    left: 10px;
-    background-color: #7c7a7a;
-    margin: 0 auto;
+    height: 600px;
 }
 
-
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 50px;
+    width: 40%;
     float: left;
+    
+}
+
+#right-about {
+    padding-top: 50px;
+    width: 40%;
+    float: right;
+    
 }
 
 hr {
@@ -130,15 +130,52 @@ hr {
     margin-bottom: 50px;
 }
 
-
-.headline-info {
+.right-about-heading {
+    width: 60%;
     float: left;
-    position: relative;
-    left: 50px;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-footer {
-    height: 150px;
+.right-about-heading h2 {
+    text-align: right;
+    justify-content: center;
+}
+
+.right-about-heading p {
+    text-align: right;
+    justify-content: center;
+}
+
+#welcome {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 280%;
+}
+
+#prices {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('..') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .social-networks {
@@ -156,64 +193,95 @@ footer {
     color: #3a3a3a;
 }
 
-#menu-board {
+
+/* For medium screens size from 480px wide and down */
+@media screen and (max-width: 480px) {
+    #chefs {
+        width: 100%;
+        height: 480px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Meny list at meny page*/
+
+#menu-page {
     height: 600px;
 
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+#week-menu {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 100%;
 }
 
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
+
+/* Style  */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
 }
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+/* Form */
+
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
+.order-form {
+    margin: 50px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
-/* For medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
+.order-form>h2 {
+    color: #0c0b0b;
+    margin-bottom: 20px;
+}
 
-    #rent-chef {
-        height: 600px;
-    }
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
 
-    .menu-center-heading {
-        font-size: 160%;
-        width: 60%;
-        float: left;
-        left: 50px;
-        line-height: 20px;
-        clear: both;
-        margin-bottom: 50px;
-    }
-    
-    .menu-center-heading h1 {
-        text-align: right;
-    }
-    
-    .menu-center-heading p {
-        text-align: right;
-    }
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.order-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.order-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
