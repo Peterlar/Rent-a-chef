@@ -14,7 +14,7 @@ body {
 
 /* Headings and logo*/
 h1,
-h2,
+h2
     {
     font-family: 'Dancing Script', cursive;
     color: black;
@@ -74,20 +74,20 @@ p {
 #chefs {
     height: 400px;
     width: 100%;
-    background: url('../css/images/chefs.JPG') no-repeat center center;
+    background: url('/assets/chefs.JPG') no-repeat center center;
     position: relative;
     display: inline-block;
     margin: auto;
     background-color: #216c6c;
 
     /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
+    animation-name: chefs-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
-@keyframes hero-zoom {
+@keyframes chefs-zoom {
     from {
         transform: scale(0.7);
     }
@@ -104,56 +104,33 @@ p {
 }
 
 #left-about {
-    padding-top: 50px;
-    width: 40%;
+    padding-top: 30px;
+    width: 33%;
     float: left;
-    
+    background-color: blue;
 }
 
 #right-about {
-    padding-top: 50px;
-    width: 40%;
-    float: right;
-    
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 60%;
+    padding-top: 30px;
+    width: 33%;
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    background-color: silver;
 }
 
-.right-about-heading h2 {
-    text-align: right;
-    justify-content: center;
-}
-
-.right-about-heading p {
-    text-align: right;
-    justify-content: center;
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
 
 #welcome {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 280%;
+    padding: 30px 0;
+    margin: 0;
+    
+    
 }
+
+/* Prices at order page*/
 
 #prices {
     text-align: center;
@@ -162,22 +139,6 @@ hr {
     text-transform: uppercase;
 }
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: rgb(12, 12, 12);
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('..') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 .social-networks {
     text-align: center;
@@ -197,11 +158,11 @@ hr {
 }
 
 
-/* For medium screens size from 480px wide and down */
-@media screen and (max-width: 480px) {
-    #chefs {
-        width: 100%;
-        height: 480px;
+/* For medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #rentchef {
+        width: 65%;
+        height: 1200px;
         margin: 0 auto;
     }
 }
@@ -246,7 +207,7 @@ textarea {
 }
 
 .order-form {
-    height: 450px;
+    height: 520px;
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -289,3 +250,4 @@ textarea {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
