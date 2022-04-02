@@ -33,37 +33,64 @@
         </nav>
     </header>
     <section>
-    <div id="pricelist">
-        <h2>What does it cost?</h2>
-        <p>Video 40 Euro</p>
-        <p>Livestream 80 Euro</p>
-        <p>Invite 500 Euro (Food included)</p>
-        <p>Contact us below for more information!</p>
-     </div>
-    </section>
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    
-    <!-- font awesome script  -->
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    </body>
-    
-    </html>
+        <div id="pricelist">
+            <h2>What does it cost?</h2>
+            <p>Video 40 Euro</p>
+            <p>Livestream 80 Euro</p>
+            <p>Invite 500 Euro (Food included)</p>
+            <p>Contact us below for more information!</p>
+        </div>
+        <div id="bg-form">
+            <form method="POST" class="order-form">
+                <h2>Let's order a luxury dinner!</h2>
+                <section class="form-section">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" required>
+
+                    <label for="email">email:</label>
+                    <input id="email" type="text" required>
+
+                    <label for="dish">Choose Dish</label>
+                    <select id="dish" name="dish">
+                        <option value="vegan">Vegan</option>
+                        <option value="carnivour">Carnivour</option>
+                        <option value="vegetarian">Vegetarian</option>
+
+                        <input class="order-button" type="submit" value="Order Now!">
+            </form>
+        </div>
+
+        <section>
+
+        </section>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)"><i
+                            class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- font awesome script  -->
+        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

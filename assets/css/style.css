@@ -15,8 +15,7 @@ body {
 
 /* Headings and logo*/
 h1,
-h2
-    {
+h2 {
     font-family: 'Dancing Script', cursive;
     color: black;
     text-transform: none;
@@ -72,10 +71,10 @@ p {
 /* creating the information section with Hero image*/
 
 #hero-image {
-    height: 600;
+    height: 500px;
     width: 100%;
-    background: url('../css/images/chefs.JPG') no-repeat center center;
-}  
+    background: url(/assets/images/hero-image.webp) no-repeat center center;
+}
 
 #chefs {
     height: 250px;
@@ -83,7 +82,7 @@ p {
     position: relative;
     display: inline-block;
     margin: auto;
-    background-color: #216c6c;
+    background-color: #9eb6b6;
     text-align: center;
 }
 
@@ -95,7 +94,7 @@ p {
     position: relative;
     display: inline-block;
     margin: auto;
-    background-color: #216c6c;
+    background-color: #9eb6b6;
     text-align: center;
 
 }
@@ -103,12 +102,12 @@ p {
 /* Pricelist at order page*/
 
 #pricelist {
-    height: 300px;
+    height: 120px;
     width: 100%;
     position: relative;
     display: inline-block;
     margin: auto;
-    background-color: #216c6c;
+    background-color: #9eb6b6;
     text-align: center;
 }
 
@@ -128,6 +127,14 @@ textarea {
     resize: vertical
 }
 
+/* background image behind form*/
+
+#bg-form {
+    background: url(/assets/images/cooking.jpg) no-repeat center center;
+    width: 100%;
+}
+
+
 /* Form */
 
 .form-section {
@@ -138,13 +145,13 @@ textarea {
 }
 
 .order-form {
-    height: 500px;
+    height: 520px;
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     left: 100%;
-    padding: 30px;
+    padding: 24px;
     margin: 0 auto;
 }
 
@@ -192,7 +199,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -208,6 +215,34 @@ footer {
     #chefs {
         width: 100%;
         height: 480px;
+        margin: 0 auto;
+    }
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #chefs {
+        width: 65%;
+        max-height: 250px;
+        margin: 0 auto;
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #chefs {
+        width: 90%;
+        height: 1200px;
         margin: 0 auto;
     }
 }
