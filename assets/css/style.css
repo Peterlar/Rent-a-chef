@@ -73,8 +73,8 @@ p {
 #chefs {
     height: 400px;
     width: 100%;
-    background: url(../images/chefs.JPG) no-repeat center center;
     position: relative;
+    background-image: url(../css/chefs.JPG);
     display: inline-block;
     margin: auto;
     background-color: #216c6c;
