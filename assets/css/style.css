@@ -40,11 +40,9 @@ p {
 /* Navigation links*/
 
 #menu {
-    height: 50px;
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 4px;
     color: black;
-    margin-bottom: 40px;
 }
 
 #menu #logo {
@@ -87,7 +85,7 @@ p {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+/* creates the level of zoom for chefs image */
 @keyframes chefs-zoom {
     from {
         transform: scale(0.7);
@@ -177,17 +175,6 @@ hr {
     
 }
 
-
-/* For medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #rentchef {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-}
-
-
 /* Meny list at meny page*/
 
 #menu-page {
@@ -271,3 +258,59 @@ textarea {
     color: #f16c6b;
 }
 
+/* For medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #rentchef {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+#welcome {
+    padding: 30px 0;
+    margin: 0;
+    }
+
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+    }
+
+
+hr {
+    display: none;
+   }
+}
+
+
+/* For medium screens sizes from 950 pixels and down*/
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    #rentchef {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
