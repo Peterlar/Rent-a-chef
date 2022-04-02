@@ -32,43 +32,39 @@
             </ul>
         </nav>
     </header>
+
     <section>
-        <div id="chefs">
-            <img src="assets/images/chefs.JPG">
+        <div>
+            <h2 id="welcome">What does it cost?</h2>
+            <div id="prices">
+                <p>Video 40 Euro</p>
+                <p>Livestream 80 Euro</p>
+                <p>Invite 500 Euro (Food included)</p>
+                <p>Contact us below for more information!</p>
+            </div>
+
+            <form method="POST" class="order-form">
+                <h2>Let's order a luxury dinner!</h2>
+                <section class="form-section">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" required>
+
+                    <label for="email">email:</label>
+                    <input id="email" type="text" required>
+
+                    <label for="dish">Choose Dish</label>
+                    <select id="dish" name="dish">
+                        <option value="vegan">Vegan</option>
+                        <option value="carnivour">Carnivour</option>
+                        <option value="vegetarian">Vegetarian</option>
+
+                        <input class="order-button" type="submit" value="Order Now!">
+            </form>
     </section>
-        <section>
-            <div>
-
-                <div id="prices">
-                    <h2>What does it cost?</h2>
-                    <p>Video 40 Euro</p>
-                    <p>Livestream 80 Euro</p>
-                    <p>Invite 500 Euro (Food included)</p>
-                    <p>Contact us below for more information!</p>
-                </div>
-
-                <form method="POST" class="order-form">
-                    <h2>Let's order a luxury dinner!</h2>
-                    <section class="form-section">
-                        <label for="fname">First Name:</label>
-                        <input id="fname" type="text" required>
-
-                        <label for="lname">Last Name:</label>
-                        <input id="lname" type="text" required>
-
-                        <label for="email">email:</label>
-                        <input id="email" type="text" required>
-
-                        <label for="dish">Choose Dish</label>
-                        <select id="dish" name="dish">
-                            <option value="vegan">Vegan</option>
-                            <option value="carnivour">Carnivour</option>
-                            <option value="vegetarian">Vegetarian</option>
-
-                            <input class="order-button" type="submit" value="Order Now!">
-                </form>
-        </section>
-    </section>
+</section>
 
     <footer>
         <ul class="social-networks">
