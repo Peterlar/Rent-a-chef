@@ -20,6 +20,7 @@ h2
     color: black;
     text-transform: none;
     letter-spacing: 4px;
+    
 }
 
 p {
@@ -106,28 +107,47 @@ p {
 #left-about {
     padding-top: 30px;
     width: 33%;
+    float: right;
+}
+
+.left-about-heading {
+    width: 60%;
     float: left;
-    background-color: blue;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: silver;
 }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+    
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
 
 #welcome {
-    padding: 30px 0;
-    margin: 0;
-    
-    
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
 }
 
 /* Prices at order page*/
