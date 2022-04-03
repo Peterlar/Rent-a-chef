@@ -143,7 +143,7 @@ textarea {
     clear: left;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 420px;
 }
 
 .order-form {
@@ -158,7 +158,7 @@ textarea {
 }
 
 .order-form>h2 {
-    color: #0c0b0b;
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
