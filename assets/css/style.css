@@ -144,7 +144,7 @@ textarea {
 
 /* Form */
 
-.form-section {
+#form-section {
     clear: left;
     background-size: cover;
     background-position: center;
