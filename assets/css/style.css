@@ -132,7 +132,7 @@ textarea {
 /* background image behind form*/
 
 #bg-form {
-    background: url(/assets/images/cooking.jpg) no-repeat center center;
+    background: url('../images/cooking.jpg') no-repeat center center;
     width: 100%;
 }
 
