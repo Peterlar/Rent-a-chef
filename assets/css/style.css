@@ -212,6 +212,8 @@ footer {
     color: #3a3a3a;
 }
 
+/* Media queries */
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #chefs {
@@ -222,6 +224,8 @@ footer {
 
 }
 
+/* Media queries */
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -231,7 +235,6 @@ footer {
         margin-left: 100px;
         margin-bottom: 30px;
         line-height: 25px;
-       
     
     }
 
@@ -242,6 +245,7 @@ footer {
         background-color: #9eb6b6;
         max-height: 50vh;
     }
+
 }
 
 /* For medium screens size from 480px wide and down */
