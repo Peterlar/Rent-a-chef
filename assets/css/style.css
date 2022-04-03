@@ -101,6 +101,11 @@ p {
 
 }
 
+#menu-heading{
+    font-size: large;
+    color: black;
+}
+
 /* Pricelist at order page*/
 
 #pricelist {
