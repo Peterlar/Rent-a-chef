@@ -151,7 +151,7 @@ textarea {
     height: 420px;
 }
 
-.order-form {
+#form-section {
     height: 520px;
     margin: 150px 10% 0 0;
     color: #fff;
@@ -162,7 +162,7 @@ textarea {
     margin: 0 auto;
 }
 
-.order-form>h2 {
+#form-section>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
