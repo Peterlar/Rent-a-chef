@@ -20,4 +20,7 @@ During this hard period it was almost impossible to pitch our products becuase o
 
 ![landing page](https://user-images.githubusercontent.com/100356636/161223465-70ae577d-1285-42e1-a588-942b64aa6fea.JPG)
 
+**Order page**
+- When the customer finds the order page, you are greeted by an inspiring page with a lot of color and energy. The customer can also read the prices about the 3 different services offered. All services are created to easily arrange a dinner at home when you lack inspiration and time. The background image shows a professional chef working with details. This is to give an idea of being contacted by chefs with a lot of experience.
 
+![image](https://user-images.githubusercontent.com/100356636/161611093-64373d70-589f-4bcf-94ae-9e0d063b8451.png)
