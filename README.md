@@ -3,8 +3,8 @@ Rent a chef is an visual idea of discussions i had during the pandemic when i wo
 During this hard period it was almost impossible to pitch our products becuase of the restrictions. Because of the situation new ideas was invented how to keep the buisness going and i had a few dialogs with buisness owners and we were talking about how to have an income from distans. The website is an idea of an online resturant where people can se how the chefs are working in the kitchen to create a full menu that contains a starter, main course and dessert.
 
 **Navigation links**
-- Links to the Home, Menu and Order pages.
-- Simple navigation between the pages.
+- Available on all pages. The full responsive navigation bar includes links to the Home, Menu and Order page. The pages are identical in design and text, which makes it easier for the customer to navigate.
+- Customer can easily navigate forth and back without having to press the backbutton.
 
 
 
