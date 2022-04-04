@@ -28,7 +28,7 @@ During this hard period it was almost impossible to pitch our products becuase o
 **Features Left to Implement**
 - All chefs will have their own profile page.
 - Customers will have access to store their videos in their account.
-- Chatt funktion between other customers.
+- Chatt features between other customers.
 - Recipe forum.
 - Sponsor competion with prices.
 - Thirt party collaboration.
