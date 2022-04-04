@@ -20,7 +20,4 @@ During this hard period it was almost impossible to pitch our products becuase o
 
 ![landing page](https://user-images.githubusercontent.com/100356636/161223465-70ae577d-1285-42e1-a588-942b64aa6fea.JPG)
 
-**Moving Pictures**
-- All pages contains pictures of well made dishes moving from right to left. The website looks more alive and in general i think people would like to se pictures on what dishes that can be made and served. More online services are starting posting pictures on the different dishes they offer.
 
-![moving pics](https://user-images.githubusercontent.com/100356636/161225388-51e48fc7-3a6c-40ae-8a53-676933b57013.JPG)
