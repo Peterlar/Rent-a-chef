@@ -1,108 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rent a chef
+Rent a chef is an visual idea of discussions i had during the pandemic when i worked as an salesmanager within the techsector selling software to hotells and resturants.
+During this hard period it was almost impossible to pitch our products becuase of the restrictions. Because of the situation new ideas was invented how to keep the buisness going and i had a few dialogs with buisness owners and we were talking about how to have an income from distans. The website is an idea of an online resturant where people can se how the chefs are working in the kitchen to create a full menu that contains a starter, main course and dessert.![min första sida](https://user-images.githubusercontent.com/100356636/161218079-54666269-069d-4199-99ae-e618c95d9705.JPG)
+# Features
+**Navigation links**
+- Links to the Home, Menu and Order pages.
+- Simple navigation between the pages.
 
-Welcome Peterlar,
+![navigation links](https://user-images.githubusercontent.com/100356636/161219664-31341e17-af8c-4171-abba-f3457e54d1e7.JPG)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Footer**
+- Footer contains 4 social media icons which can be opened in new tabs. This is a great way to communicate with information that is not displayed on the website. Customers would be able to se the next weeks menu, wich chefs that are working and different events to decide future menues.
+-  At this point the social media plattforms have not been created yet. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![footer](https://user-images.githubusercontent.com/100356636/161221719-15940cc2-78ea-4ed7-bdb1-c6d27a393804.JPG)
 
-## Gitpod Reminders
+**Landing Page**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Landing page contains an logo styled with the font style " Dancing Script ". Menues often has this type of style and gives a touch of resturant feeling. When you visit the landing page you will have information below the main picture what the site is about. Very clean an easy to read.
 
-`python3 -m http.server`
+![landing page](https://user-images.githubusercontent.com/100356636/161223465-70ae577d-1285-42e1-a588-942b64aa6fea.JPG)
 
-A blue button should appear to click: _Make Public_,
+**Moving Pictures**
+- All pages contains pictures of well made dishes moving from right to left. The website looks more alive and in general i think people would like to se pictures on what dishes that can be made and served. More online services are starting posting pictures on the different dishes they offer.
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![moving pics](https://user-images.githubusercontent.com/100356636/161225388-51e48fc7-3a6c-40ae-8a53-676933b57013.JPG)
