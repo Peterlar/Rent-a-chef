@@ -106,6 +106,12 @@ p {
     color: black;
 }
 
+.bg-menu {
+    height: 500px;
+    width: 100%;
+    background: url('../images/coconutsoup.webp') no-repeat center center;
+}
+
 /* Pricelist at order page*/
 
 #pricelist {
