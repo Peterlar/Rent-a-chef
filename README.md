@@ -1,7 +1,7 @@
 # Rent a chef
 Rent a chef is an visual idea of discussions i had during the pandemic when i worked as an salesmanager within the techsector selling software to hotells and resturants.
-During this hard period it was almost impossible to pitch our products becuase of the restrictions. Because of the situation new ideas was invented how to keep the buisness going and i had a few dialogs with buisness owners and we were talking about how to have an income from distans. The website is an idea of an online resturant where people can se how the chefs are working in the kitchen to create a full menu that contains a starter, main course and dessert.![min första sida](https://user-images.githubusercontent.com/100356636/161218079-54666269-069d-4199-99ae-e618c95d9705.JPG)
-# Features
+During this hard period it was almost impossible to pitch our products becuase of the restrictions. Because of the situation new ideas was invented how to keep the buisness going and i had a few dialogs with buisness owners and we were talking about how to have an income from distans. The website is an idea of an online resturant where people can se how the chefs are working in the kitchen to create a full menu that contains a starter, main course and dessert.
+
 **Navigation links**
 - Links to the Home, Menu and Order pages.
 - Simple navigation between the pages.
