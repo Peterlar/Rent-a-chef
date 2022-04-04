@@ -71,7 +71,7 @@ p {
 /* creating the information section with Hero image*/
 
 #hero-image {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
@@ -97,11 +97,12 @@ p {
     display: inline-block;
     margin: auto;
     background-color: #9eb6b6;
+    max-height: 500px;
     text-align: center;
 
 }
 
-#menu-heading{
+#menu-heading {
     font-size: large;
     color: black;
 }
@@ -240,6 +241,19 @@ footer {
         margin: 0 auto;
     }
 
+    #menu {
+        max-height: 250px;
+        clear: left;
+        float: left;
+        margin-left: 2px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #hero-image {
+        max-height: 200px;
+    }
+
 }
 
 /* Media queries */
@@ -284,6 +298,7 @@ footer {
        
     
     }
+
     #menu {
         clear: left;
         float: left;
