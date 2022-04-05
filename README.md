@@ -6,6 +6,7 @@ During this hard period it was almost impossible to pitch our products becuase o
 **Navigation links**
 - Available on all pages. The full responsive navigation bar includes links to the Home, Menu and Order page. The pages are identical in design and text, which makes it easier for the customer to navigate.
 - Customer can easily navigate forth and back without having to press the backbutton.
+
 ![image](https://user-images.githubusercontent.com/100356636/161710835-01517400-99f7-4795-b1e9-111174d567e3.png)
 
 
@@ -50,3 +51,62 @@ During this hard period it was almost impossible to pitch our products becuase o
 - Sponsor competion with prices.
 - Thirt party collaboration.
 - Advertising.
+
+## Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+
+## Testing 
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome.
+
+Steps to test:
+
+1. Open browser and navigate to [Rent a chef](https://gareth-mcgirr.github.io/tacos-travels/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
+Website was also opened on the following devices:
+
+Iphone SE
+Iphone XR
+Iphone 12 pro
+Pixel 5
+Samsung Galaxy 8
+Samsung Galaxy S20 Ultra
+Nest Hub Max
+
+**Accessibility**
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.### Accessibility
+
+Landing page:
+
+![wave](https://user-images.githubusercontent.com/100356636/161719921-b27d198c-f683-4b9c-83ce-ca56fe2cb9ea.JPG)
+
+Menu page:
+
+![menu page](https://user-images.githubusercontent.com/100356636/161720392-8e7343fd-ab43-4bd9-89a5-e76499f305a1.JPG)
+
+Order page
+
+![wave order page](https://user-images.githubusercontent.com/100356636/161720047-41f62281-49e8-4d3d-82b7-6dc2b3dbcc7e.JPG)
