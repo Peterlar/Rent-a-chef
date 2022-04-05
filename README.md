@@ -67,13 +67,20 @@ During this hard period it was almost impossible to pitch our products becuase o
 
 ## Testing 
 
+**Functional testing**
+
+- Navigation links
+Testing was made to make sure that the links on all pages navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+- Contact form
+
 ### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome.
 
 Steps to test:
 
-1. Open browser and navigate to [Rent a chef](https://gareth-mcgirr.github.io/tacos-travels/)
+1. Open browser and navigate to [Rent a chef](https://peterlar.github.io/rent-a-chef/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -95,14 +102,32 @@ Website was also opened on the following devices:
 - Samsung Galaxy S20 Ultra
 - Nest Hub Max
 
-Validator Testing
+**Validator Testing**
 
 - HTML
 I had a couple of errors testing the site. I had alot of problems with gitpod not sending code to Github/8000 browser and it was not because of cache memory. When that 
 was sorted out the erros was due to "stray sections" and not closed sections. I removed the stray sections and closed where it was needed.
 
 - CSS
-One error was found when passing through the official (Jigsaw) validator.  
+One error was found when passing through the official (Jigsaw) validator. The error states an "parsingerror" on the last column in the code that is empty. I went through the code several times and could not find the missing piece. 
+
+**Unfixed Bugs**
+- I struggled alot with Gitpod the last couple of days wich is the reason why this project is delayed. It was almost impossible to have the 8000 server browser having any update in wich i had to contact the support many times. When the support opened the workspace they had no issues at all. The last thing i tried was cleaning my browsers from everything and delete all other workspaces. I still recived the same error message. I hope for a better future with other projects.
+![gitpod error](https://user-images.githubusercontent.com/100356636/161829647-fd05cc7a-c129-4e45-bf49-cac6e11f88ce.JPG)
+
+# Deployment
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Scroll down to "Github Pages"
+  - You will find following message "Pages settings now has its own dedicated tab! Check it out here!"
+  - Click "Check it out here"
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here https://peterlar.github.io/rent-a-chef/
+
 
 **Accessibility**
 
