@@ -160,5 +160,8 @@ Order page
 **Tutor support**
 - The tutor support was amazing helping with technical difficulties and errors. Also had some help with solving some layout issues.
 
+**Slack community**
+Had great chats and discussions with other fellow students solving some issues.
+
 **Mentor** 
 - I will also say thanks to my mentor Daisy who game me some great tools to use in the future and her feedback on some errors.
