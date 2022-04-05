@@ -95,6 +95,15 @@ Website was also opened on the following devices:
 - Samsung Galaxy S20 Ultra
 - Nest Hub Max
 
+Validator Testing
+
+- HTML
+I had a couple of errors testing the site. I had alot of problems with gitpod not sending code to Github/8000 browser and it was not because of cache memory. When that 
+was sorted out the erros was due to "stray sections" and not closed sections. I removed the stray sections and closed where it was needed.
+
+- CSS
+One error was found when passing through the official (Jigsaw) validator.  
+
 **Accessibility**
 
 [Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.### Accessibility
