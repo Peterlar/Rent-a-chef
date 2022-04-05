@@ -108,7 +108,7 @@ p {
 }
 
 .dishes {
-    display: center;
+    justify-content: flex-start;
 
 }
 
@@ -152,7 +152,7 @@ textarea {
 
 .bg-form >h2 {
     color: red;
-    font: 60Spx;
+    font: 60px;
 }
 
 /* Headline above form at order page*/
