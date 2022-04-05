@@ -87,13 +87,13 @@ No elements overlap.
 
 Website was also opened on the following devices:
 
-Iphone SE
-Iphone XR
-Iphone 12 pro
-Pixel 5
-Samsung Galaxy 8
-Samsung Galaxy S20 Ultra
-Nest Hub Max
+- Iphone SE
+- Iphone XR
+- Iphone 12 pro
+- Pixel 5
+- Samsung Galaxy 8
+- Samsung Galaxy S20 Ultra
+- Nest Hub Max
 
 **Accessibility**
 
