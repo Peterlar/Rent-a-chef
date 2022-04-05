@@ -152,13 +152,13 @@ Order page
 # Credits
 
 **Media**
-The images that was used for this website all came from Words online service for images.
+- The images that was used for this website all came from Words online service for images.
 
 **Content**
-No content was used from other sources, however some code buildup was used from the " I Love Running " project.
+- No content was used from other sources, however some code buildup was used from the " I Love Running " project.
 
 **Tutor support**
-The tutor support was amazing helping with technical difficulties and errors. Also had some help with solving some layout issues.
+- The tutor support was amazing helping with technical difficulties and errors. Also had some help with solving some layout issues.
 
 **Mentor** 
-I will also say thanks to my mentor Daisy who game me some great tools to use in the future and her feedback on some errors.
+- I will also say thanks to my mentor Daisy who game me some great tools to use in the future and her feedback on some errors.
