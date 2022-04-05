@@ -32,7 +32,7 @@ During this hard period it was almost impossible to pitch our products becuase o
         * First Name 
         * Last Name 
         * Email 
-        * Choose dish ( Drop-down list )
+        * Choose dish ( drop-down list )
 
 ![image](https://user-images.githubusercontent.com/100356636/161611093-64373d70-589f-4bcf-94ae-9e0d063b8451.png)
 
