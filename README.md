@@ -70,9 +70,13 @@ During this hard period it was almost impossible to pitch our products becuase o
 **Functional testing**
 
 - Navigation links
+
 Testing was made to make sure that the links on all pages navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
 - Contact form
+
+Testing was made by filling the categories differently. If user is avoiding answer first or lastname an "required" message will pop up. When user is succesfull an error 405 message will be presented.
+
 
 ### Responsiveness
 
@@ -144,3 +148,17 @@ Menu page:
 Order page
 
 ![wave order page](https://user-images.githubusercontent.com/100356636/161720047-41f62281-49e8-4d3d-82b7-6dc2b3dbcc7e.JPG)
+
+# Credits
+
+**Media**
+The images that was used for this website all came from Words online service for images.
+
+**Content**
+No content was used from other sources, however some code buildup was used from the " I Love Running " project.
+
+**Tutor support**
+The tutor support was amazing helping with technical difficulties and errors. Also had some help with solving some layout issues.
+
+**Mentor** 
+I will also say thanks to my mentor Daisy who game me some great tools to use in the future and her feedback on some errors.
