@@ -36,6 +36,12 @@ During this hard period it was almost impossible to pitch our products becuase o
 
 ![image](https://user-images.githubusercontent.com/100356636/161611093-64373d70-589f-4bcf-94ae-9e0d063b8451.png)
 
+
+**Existing Features**
+- Responsive design.
+- Repsonsive images at menu page.
+- Contact form.
+
 **Features Left to Implement**
 - All chefs will have their own profile page.
 - Customers will have access to store their videos in their account.
@@ -43,4 +49,4 @@ During this hard period it was almost impossible to pitch our products becuase o
 - Recipe forum.
 - Sponsor competion with prices.
 - Thirt party collaboration.
-- Advertising
+- Advertising.
